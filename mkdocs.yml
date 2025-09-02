@@ -1,0 +1,18 @@
+site_name: Puzzle Makers Site
+site_url: https://puzzlemakers.github.io
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: red
+      accent: white
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: yellow
+      accent: blue grey
+    
