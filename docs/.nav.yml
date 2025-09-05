@@ -1,0 +1,9 @@
+nav:
+- Wiki:
+  - index.md
+  - intro-4d.md
+  - "*"
+  - jokes.md
+- faq.md
+- leaderboards
+- discord.md

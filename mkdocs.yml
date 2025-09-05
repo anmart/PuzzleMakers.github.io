@@ -1,18 +1,39 @@
-site_name: Puzzle Makers Site
+site_name: Puzzle Makers Wiki
 site_url: https://puzzlemakers.github.io
+repo_url: https://github.com/PuzzleMakers/PuzzleMakers.github.io
+repo_name: puzzlemakers/puzzlemakers.github.io
 theme:
   name: material
+  logo: https://i.ibb.co/84jVnn1k/icon1.png
+  favicon: https://i.ibb.co/84jVnn1k/icon1.png
+  font:
+    text: Inter
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark Mode
-      primary: red
-      accent: white
+      primary: blue
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light Mode
-      primary: yellow
+      primary: blue
       accent: blue grey
-    
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+plugins:
+  - search
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/VbxpsU46dT
