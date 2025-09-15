@@ -10,29 +10,38 @@ theme:
     text: Inter
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.indexes
   palette:
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark Mode
-      primary: blue
+      primary: indigo
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light Mode
-      primary: blue
-      accent: blue grey
+      primary: indigo
 markdown_extensions:
+  - admonition
+  - attr_list  
+  - def_list
+  - md_in_html
   - pymdownx.arithmatex:
       generic: true
-  - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - search
+  - awesome-nav
 extra:
   social:
     - icon: fontawesome/brands/discord

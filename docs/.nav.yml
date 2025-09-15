@@ -1,9 +1,15 @@
 nav:
-- Wiki:
-  - index.md
-  - intro-4d.md
-  - "*"
-  - jokes.md
-- faq.md
-- leaderboards
-- discord.md
+- Home: # should figure out how to use a glob for this
+  - Welcome: index.md
+  - Links: extra-links.md
+  - contributing.md
+  - glossary.md
+- Puzzle Theory:
+  - theory/index.md
+  - "theory/*"
+- Puzzle Design:
+  - design/index.md
+  - "design/*"
+- Puzzle Production:
+  - production/index.md
+  - "production/*"
