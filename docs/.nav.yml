@@ -1,5 +1,5 @@
 nav:
-- Home: # should figure out how to use a glob for this
+- Home:
   - Welcome: index.md
   - Links: extra-links.md
   - contributing.md

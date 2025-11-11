@@ -9,7 +9,7 @@ Puzzle Theory deals in the mathematical analysis of twisty puzzles. Some topics 
 
 ### [Design](design/index.md)
 The aim of the Design section is to provide resources so that anyone may design their own twisty puzzles. 
-Some topics include strategies for choosing axis systems, Intro to CAD, and tutorials for advanced puzzle making techniques, such as hyperbolic cuts and shell puzzles. 
+Some topics include strategies for choosing axis systems, Intro to CAD, and tutorials for advanced puzzle making techniques, such as [non-planar cuts](theory/hyperbolic-cuts.md) and shell puzzles. 
 
 ### [Production](production/index.md)
 The Production section helps bring puzzle designs to life. Some topics include choosing a 3d printer, choosing good print orientations, and tips for post processing.
